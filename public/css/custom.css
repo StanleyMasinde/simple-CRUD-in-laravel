@@ -1,0 +1,24 @@
+body, html
+{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:480px) {
+.input,
+textarea
+{
+    width: 900px!important;
+    padding: 6px;
+    border-radius: 3px;
+    border: 2px solid green;
+}
+
+.custom-center
+{
+    width: 60%;
+    left: 10%;
+    position: relative;
+}
+}
